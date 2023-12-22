@@ -2,16 +2,16 @@ find_package(GTest REQUIRED)
 
 enable_testing()
 
-add_executable(test_header_template
+add_executable(test_real_world_units
     example/test_example.cpp
 )
 
-target_link_libraries(test_header_template
+target_link_libraries(test_real_world_units
     PUBLIC
         GTest::GTest
         GTest::Main
-        template::example
+        Physics::Units
 )
 
 include(GoogleTest)
-gtest_discover_tests(test_header_template)
+gtest_discover_tests(test_real_world_units)

@@ -1,9 +1,12 @@
-# Header-Only Library Template
+# Real-World Units Library
 
-This repository hosts a template to be used as a starting point for creating 
-header-only libraries in C++. The overall project layout is inspired by the 
-Boost project (https://github.com/boostorg/boost), and uses a Docker Dev 
-Container with VSCode.
+This repository is intended to be used for expressing domains which involve
+mathematical equations which model the real world. The units in this library
+were intended as a way for me to gain practice with the C++ standard library
+functions used for building sum types (namely, std::variant and std::visit). 
+The overall project layout is inspired by the Boost project 
+(https://github.com/boostorg/boost), and uses a Docker Dev Container with 
+VSCode.
 
 ## Prerequisites
 
